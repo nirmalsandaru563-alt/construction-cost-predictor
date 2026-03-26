@@ -20,6 +20,8 @@ rates = {"Economy": 150, "Standard": 250, "Luxury": 500}
 current_rate = rates[material_quality]
 
 estimate = area * current_rate
+
+st.divider()
 st.write("This is based on 2026 prices only")
 
 st.divider()
